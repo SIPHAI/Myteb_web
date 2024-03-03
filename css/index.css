@@ -96,17 +96,11 @@ body{
   .header{
     width: 100%;
     height: 40vh;
-    /* padding:  0 ; */
     display: flex;
-    /* border: 1px solid #000; */
-    /* flex-direction: column; */
     justify-content: space-around;
-    /* position: relative; */
-    /* overflow: hidden; */
 
   }
   .wrapper{
-    border: 1px solid #000;
     width: 100%;
     height: 100%;
     padding: 0 225px;
@@ -115,23 +109,19 @@ body{
     align-items: center;
   }
  
-
-  /* .toggle-btn{
-    background: #4864ff;
-    color:#fff;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    cursor: pointer;
-  } */
   .toggle-btn img{
-
     width: 600px;
-    filter: drop-shadow(7px 7px 4px  #626284);
-
+    /* filter: drop-shadow(7px 7px 4px  #626284); */
+  }
+  @keyframes toggle-btn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
 
