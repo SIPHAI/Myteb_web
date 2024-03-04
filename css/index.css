@@ -59,6 +59,11 @@ body{
       text-align: left;
     }
 
+
+
+    
+
+  /*responsive */
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -115,9 +120,6 @@ body{
     filter: drop-shadow(7px 7px 4px  #dfdfe5);
   }
   
-
-  
-
   .content{
     max-width: 800px;
   }
@@ -159,7 +161,6 @@ body{
     margin-top: 20px;
     display: block;
   }
-
 
   /* shcedule under header */
   .bar-line {
