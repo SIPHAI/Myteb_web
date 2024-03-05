@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
-   /* background-color: #faf3f3; */
-
-    /* font-family: pruduct-sans; */
+  font-family: "Poppins";
 }
 ::root{
     --text-color: #393939;
@@ -18,12 +18,10 @@ body{
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 78%;
-    /* overflow: hidden; */
+    width: 75%;
   }
   
   .topnav a {
-    font-family: poppins;
     float: left;
     align-items: center;
     display: block;
@@ -60,8 +58,6 @@ body{
     }
 
 
-
-    
 
   /*responsive */
   @media screen and (max-width: 600px) {
@@ -147,16 +143,15 @@ body{
     text-decoration: none;
   }
   .content a:hover {
-    border: 1px solid rgb(225, 31, 31);
-    background-color: #ffffff;
-    color: #000000;
+    /* border: 1px solid rgb(225, 31, 31); */
+    background-color: #3075dc;
+    color: #ffffff;
     transition: ease-in-out 0.3s;
   }
 
-  .content p {
+  .header .wrapper .content .title p {
     font-size: 1em;
-    font-weight: 400;
-    color: var(--title-color);
+    color: #4e4d4d;
     font-family: serif;
     margin-top: 20px;
     display: block;
@@ -206,6 +201,10 @@ hr{
 }
 
 /* digitall classroom */
+.community,
+.about,
+.stem,
+.science,
 .digital{
   position: relative;
   width: 70%;
@@ -217,15 +216,45 @@ hr{
   justify-content: center;
   border: 1px solid #464646;
   }
+
+  .science h1,
+  .science h3,
   .digital h1,
   .digital h3{
     display: flex;
     justify-content: center;
   }
+.science h3{
+  margin-bottom: 40px;
+}
+  .science .science-digital img,
   .digital .image-digital img{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
