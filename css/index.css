@@ -241,6 +241,46 @@ hr{
   }
   
   
+
+
+.wrappper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+  height: 100vh;
+  border: 1px solid #464646;
+}
+.wrappper .text-form{
+  border: 1px solid #f50000;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrappper .check-box{
+  border: 1px solid #f1b2b2;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
   display: flex;
   margin: 13rem auto;
