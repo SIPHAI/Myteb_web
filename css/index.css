@@ -200,6 +200,11 @@ hr{
   transition: all 0.3s ease;
 }
 
+
+/* Button link under sections */
+
+
+
 /* digitall classroom */
 .community,
 .about,
@@ -236,12 +241,31 @@ hr{
   }
   
   
-
-
-
-
-
-
+.container{
+  display: flex;
+  margin: 13rem auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 50vh;
+  padding: 0 100px;
+}
+textarea,
+.container .input-group input{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  outline: none;
+}
+.check-box input{
+  margin: 4px;
+}
+.check-box label{
+  color: #868484;
+  font-weight: 50;
+}
 
 
 
