@@ -6,6 +6,9 @@
    box-sizing: border-box; 
   font-family: "Poppins";
 }
+html {
+  scroll-behavior: smooth;
+}
 ::root{
     --text-color: #393939;
     --black-color: #000000;
@@ -349,7 +352,7 @@ hr{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 80vh;
   width: 70%;
   margin: 0 auto;
 }
@@ -379,23 +382,24 @@ hr{
 .card {
   background-color: rgba(0,0,0, .05);
   box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0,0,0,0.5);
-  height: 15rem;
+  height: 25rem;
   position: relative;
   transition: all 1s ease;
-  width: 15rem;
+  width: 25rem;
+  margin: .2rem;
 }
 
 /* Flip card - covering both the front and inside front page */
 
 /* An outer container to hold the flip card. This excludes the inside page */
 .flip-card {
-  height: 15rem;
+  height: 25rem;
   perspective: 100rem;
   position: absolute;
   right: 0;
   transition: all 1s ease;
   visibility: hidden;
-  width: 15rem;
+  width: 25rem;
   z-index: 100;
 }
 
@@ -431,8 +435,8 @@ hr{
 /* container for the front side */
 .card-front {
   background-color: #fafbfa;
-  height: 15rem;
-  width: 15rem;
+  height: 25rem;
+  width: 25rem;
 }
 
 /* Front side's top section */
@@ -543,26 +547,19 @@ hr{
   box-shadow: inset 1rem 0px 5rem -2.5rem rgba(0,0,0,0.1);
 }
 
-/* Footer ====================================*/
-
-.footer {
-  background-color: #333;
-   margin-top: 3rem;
-  padding: 1rem 0;
-  width: 100%;
-}
-
-
-
-
 
 /* test */
 
-/* Button link under sections */
 
 
 
-/* digitall classroom */
+
+/* .digitall classroom */
+.main>h2{
+  width: 70%;
+  height: 70vh;
+  margin: 12rem auto;
+}
 .science,
 .digital{
   position: relative;
@@ -576,6 +573,7 @@ hr{
   /* border: 1px solid #464646; */
   }
 
+  
   .science h1,
   .science h3,
   .digital h1,
@@ -650,7 +648,7 @@ button{
 .contact {
   width:90%;
   height: 100vh;
-  margin: 0 auto;
+  margin: 12rem auto;
   display: flex;
   flex-direction: column;
   /* border: 1px solid #464646; */
@@ -674,7 +672,7 @@ h2{
   display: flex;
   flex-direction: column;
   /* background-color: #726b6b; */
-  padding: 20px;
+  padding: 10px;
 }
 
 .interest_options {
@@ -760,7 +758,7 @@ textarea {
 .client{
   position: relative;
   width: 70%;
-  height: 30vh;
+  height: 50vh;
   margin: 12rem auto;
 
   /* overflow: hidden; */
@@ -777,13 +775,13 @@ textarea {
   color: #4e4d4d;
 }
 .client .logos{
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid #464646; */
   width: 100%;
-  height: 29vh;
+  background-color: #e2e2eb;
+
 }
 .client .logos .logo img{
   width: 100px;
@@ -792,22 +790,6 @@ textarea {
   align-items: center;
 }
 
-/* .customer-said{
-  border: 1px solid #464646;
-  width: 70%;
-  height: 70vh;
-  margin: 0 auto;
-}
-.customer-said .card-box{
-  position: relative;
-  width: 100%;
-  height: 70vh;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-} */
 
 /* --------*/
 .center,
@@ -824,7 +806,6 @@ textarea {
   align-items: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
   padding: 50px 0;
 }
 .ag-courses_item {
