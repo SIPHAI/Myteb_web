@@ -573,7 +573,7 @@ hr{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #464646;
+  /* border: 1px solid #464646; */
   }
 
   .science h1,
@@ -645,33 +645,116 @@ button{
 }
 
 
+/* contact form */
 
-
-.container{
+.contact {
+  width:90%;
+  height: 100vh;
+  margin: 0 auto;
   display: flex;
-  margin: 13rem auto;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid #464646; */
+ 
+}
+h2{
+  text-align: center;
+  margin-top:50px;
+}
+.contact_form{
   width: 80%;
-  height: 50vh;
-  padding: 0 100px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
-textarea,
-.container .input-group input{
+.form_data {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #726b6b; */
+  padding: 20px;
+}
+
+.interest_options {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0  0px; */
+  margin-left: 20px;
+ 
+}
+.interest_options > h3{
+  margin-bottom: 20px;
+  font-size: .8rem;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+}
+.check_box{
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.check_box>input[type="checkbox"]{
+  margin: 5px;
+  display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #eee;
+      border-radius: 4px;
+      cursor: pointer;
+  
+
+}
+.Name{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.email, .phone, .description {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  margin-top: 10px;
+}
+.email>input, .phone>input, .description>textarea {
+  width: 80%;
+  padding: 8px;
+ 
+}
+textarea {
+  height: 200px;
+}
+.first_name, .last_name {
+  width: 47%;
+  
+}
+.first_name>input, .last_name>input {
+  width: 100%;
+  padding: 8px;
+
+}
+
+.submit_btn{
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+}
+.submit_btn>button{
   padding: 10px 20px;
-  margin: 10px 0;
-  border: 1px solid #d9d9d9;
-  border-radius: 5px;
-  outline: none;
+  background-color: #336ff1;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
-.check-box input{
-  margin: 4px;
-}
-.check-box label{
-  color: #868484;
-  font-weight: 50;
-}
+/* contact form */
 
 
 .client{
@@ -880,7 +963,7 @@ textarea,
 .footer{
   position: relative;
   width: 100%;
-  height: 15vh;
+  height: 45vh;
   background-color: #cbcaca;
   
 }
