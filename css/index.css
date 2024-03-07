@@ -60,8 +60,6 @@ body{
       text-align: left;
     }
 
-
-
   /*responsive */
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -552,8 +550,6 @@ hr{
 
 
 
-
-
 /* .digitall classroom */
 .main>h2{
   width: 70%;
@@ -584,7 +580,7 @@ hr{
 .science h3{
   margin-bottom: 40px;
 }
-  .science .science-digital img,
+  .science .image-science img,
   .digital .image-digital img{
     width: 100%;
     display: flex;
@@ -601,6 +597,105 @@ h2{
   margin: 0 auto;
 
 }
+
+
+
+/* slider============================== */
+.client{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #726b6b; */
+  padding: 20px 20px;
+
+}
+
+@keyframes hm-clients-track-move {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+.slider {
+  margin:0 auto;
+  position: relative;
+  width: 70%;
+  border-radius: 0 50px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  /* background-color: #5d3333; */
+}
+
+.slide-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* width: 14400px; */
+  animation: scroll 40s linear infinite;
+  /* background-color: #e31111; */
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 9));
+  }
+}
+.slide {
+  /* height: 600px; */
+  margin-top: 8rem;
+  width: 400px;
+  align-items: center;
+  padding: 15px;
+  perspective: 300px;
+}
+
+.client .slider .slide-track .slide img {
+  width: 100px;
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: translateZ(20px);
+  
+}
+.slider::before,
+.slider::after {
+  
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ("180deg");
+}
+
+
+
 
 
 /* contact form */
@@ -715,43 +810,6 @@ textarea {
 }
 
 /* contact form */
-
-
-.client{
-  position: relative;
-  width: 70%;
-  height: 50vh;
-  margin: 12rem auto;
-
-  /* overflow: hidden; */
-}
-.client h3,
-.client h1{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0 auto;
-  font-weight: 600;
-  color: #4e4d4d;
-}
-.client .logos{
-  margin: 2rem auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  /* background-color: #e2e2eb; */
-
-}
-.client .logos .logo img{
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 
 /* --------*/
 .center,
