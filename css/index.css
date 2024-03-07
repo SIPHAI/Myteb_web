@@ -559,9 +559,9 @@ hr{
 .digital{
   position: relative;
   width: 70%;
-  height: 70vh;
-  margin: 2rem auto;
-  margin-top: 10rem;
+  height: 90vh;
+  margin: 0 auto;
+  margin-top: 12rem;
   display: flex;
   align-items: center;
   justify-content: center;
