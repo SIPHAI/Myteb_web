@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+  font-family: "Poppins";
+}
+html {
+  scroll-behavior: smooth;
+}
+::root{
+    --text-color: #393939;
+    --black-color: #000000;
+};
+body{
+    background-color: var(--background-color);
+    font-family: 'Courier New';
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+  }
+  
+  .topnav a {
+    float: left;
+    align-items: center;
+    display: block;
+    color: #414141;
+    text-align: center;
+    padding: 18px 14px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 0, 51);
+    transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
+  }
+  
+  .topnav a.active {
+    color: rgb(255, 0, 13);
+    /* text-decoration: underline; */
+
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
