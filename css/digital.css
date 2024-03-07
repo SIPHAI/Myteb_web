@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+  font-family: "Poppins";
+}
+html {
+  scroll-behavior: smooth;
+}
+::root{
+    --text-color: #393939;
+    --black-color: #000000;
+};
+body{
+    background-color: var(--background-color);
+    font-family: 'Courier New';
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+  }
+  
+  .topnav a {
+    float: left;
+    align-items: center;
+    display: block;
+    color: #414141;
+    text-align: center;
+    padding: 18px 14px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 0, 51);
+    transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
+  }
+  
+  .topnav a.active {
+    color: rgb(255, 0, 13);
+    /* text-decoration: underline; */
+
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    /* video_display */
+    h2{
+      margin-top: 5rem;
+      text-align: center;
+      padding: 1rem;
+
+    }
+    .video_display {
+      align-items: center;
+    }
+    
+    .video__container {
+      width: 60%;
+      margin-left: 22rem; /* This will center the video horizontally */
+    }
+    
+
+
+    /* ==================*/
+    
+    .carousel {
+      position: relative;
+      width: 80%;
+      overflow-x: scroll;
+      padding: 30px;
+      padding-top: 80px;
+      margin: 0 auto;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    .carousel__container {
+      white-space: nowrap;
+      margin: 70px 0px;
+      padding-bottom: 10px;
+      display: inline-block;
+    }
+    
+    .categories__title {
+     color: rgb(77, 55, 102);
+      font-size: 28px;
+      position: absolute;
+      padding-left: 30px;
+    }
+    
+    .carousel-item {
+      width: 200px;
+      height: 250px;
+      border-radius: 20px;
+      background-color: #95bcd6;
+      overflow: hidden;
+      margin-right: 10px;
+      margin-top: 70px;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-transition: 1000ms all;
+      transition: 1000ms all;
+      -webkit-transform-origin: center left;
+      transform-origin: center left;
+      position: relative;
+    }
+    
+    .carousel-item:hover ~ .carousel-item {
+      -webkit-transform: translate3d(100px, 0, 0);
+      transform: translate3d(100px, 0, 0);
+    }
+    
+    .carousel__container:hover .carousel-item {
+      opacity: 0.3;
+    }
+    
+    .carousel__container:hover .carousel-item:hover {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+      opacity: 1;
+    }
+    
+    .carousel-item__img {
+      width: 200px;
+      height: 250px;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+    
+    .carousel-item__details {
+      background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(rgba(0, 0, 0, 0.9)),
+        to(rgba(0, 0, 0, 0))
+      );
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      font-size: 10px;
+      opacity: 0;
+      -webkit-transition: 450ms opacity;
+      transition: 450ms opacity;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    
+    .carousel-item__details:hover {
+      opacity: 1;
+    }
+    
+    .carousel-item__details span {
+      /* width: 10px;
+      height: 10px; */
+      font-size: 0.9rem;
+      color: #2ecc71;
+      /* background-color: white; */
+    }
+    
+    .carousel-item__details .controls {
+      padding-top: 180px;
+    }
+    
+    .carousel-item__details .carousel-item__details--title,
+    .carousel-item__details--subtitle {
+      color: #fff;
+      margin: 5px 0;
+    }
+     
+     
