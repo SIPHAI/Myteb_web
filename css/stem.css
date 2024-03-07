@@ -189,5 +189,17 @@ body{
         color: #fff;
         margin: 5px 0;
       }
-       
-       
+    
+
+
+
+
+
+     /* === footet ==== */
+      .footer{
+        margin-top: 50rem;
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        background-color: #cbcaca;
+      }
