@@ -69,7 +69,34 @@
       width: 60%;
       margin-left: 22rem; /* This will center the video horizontally */
     }
-    
+
+    article{
+      width: 60%;
+      margin: 5rem auto;
+    }
+    article h3{
+      margin: 4rem auto;
+      color: #2ecc71;
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    article p{
+      margin: 1rem auto;
+      color: #414141;
+      font-size: 1.1rem;
+    }
+    .intro{
+      display: block;      
+      justify-content: space-between;
+    }
+    .intro img{
+      width: 400px;
+      margin-top: 2rem;
+    }
+    .intro p{
+      width: 50%;
+      margin-top: 2rem;
+    }
 
 
     /* ==================*/

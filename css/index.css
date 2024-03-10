@@ -8,6 +8,7 @@
 }
 html {
   scroll-behavior: smooth;
+  /* background-color: #000000; */
 }
 ::root{
     --text-color: #393939;
@@ -140,10 +141,24 @@ body{
     text-decoration: none;
     transition: ease-in-out 0.3s;
   }
-  /* .email{
-    color:red;
-  } */
-
+ 
+  .fa-envelope{
+    color: #c10202;
+  }
+  .fa-facebook{
+    color: #3b5998;
+  }
+  .fa-telegram{
+    color: #0088cc;
+  }
+  .fa-tiktok{
+    color: #000000;
+  }
+  .content a:hover {
+    text-shadow: #333;
+    transform: scale(1.2);
+  }
+ 
 
   .header .wrapper .content .title p {
     font-size: 1em;
