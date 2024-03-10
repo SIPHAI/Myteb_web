@@ -134,25 +134,19 @@ body{
     font-style: italic;
   }
   .content a {
-    color: #262626;
-    padding: 15px 75px;
-    border: #868484 solid 1px;
-    border-radius: 5px;
-    cursor: pointer;
     display: inline-block;
-    margin-top: 30px;
+    font-size: 35px;
+    margin:15px 15px;
     text-decoration: none;
-  }
-  .content a:hover {
-    /* border: 1px solid rgb(225, 31, 31); */
-    background-color: #3075dc;
-    color: #ffffff;
     transition: ease-in-out 0.3s;
   }
+  /* .email{
+    color:red;
+  } */
+
 
   .header .wrapper .content .title p {
     font-size: 1em;
-    color: #4e4d4d;
     font-family: serif;
     margin-top: 20px;
     display: block;
