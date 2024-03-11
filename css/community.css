@@ -69,30 +69,6 @@ body{
 
     /* =====Event ======= */
 
-
-/* RESET */
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h2,
-p {
-  margin: 0;
-}
-
-/* GLOBAL STYLES */
-body {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-}
-
 h2 {
   font-size: 2.25rem;
   font-family: var(--font-title);
