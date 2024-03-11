@@ -100,7 +100,7 @@
     .intro h2{
       display: flex;
       justify-content: start;
-      color: rgb(0, 97, 31);
+      color: #2ecc71;
     }
 
     article p{
