@@ -604,8 +604,6 @@ h2{
 
 }
 
-
-
 /* slider============================== */
 .client{
   width: 100%;
@@ -616,16 +614,6 @@ h2{
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
-}
-.ag-format-container .see_more{
-  display: flex;
-
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  border: 1px solid #000;
-  text-decoration: none;
 }
 
 @keyframes hm-clients-track-move {
@@ -707,10 +695,6 @@ img:hover {
   top: 0;
   transform: rotateZ("180deg");
 }
-
-
-
-
 
 /* contact form */
 
@@ -823,9 +807,8 @@ textarea {
   cursor: pointer;
 }
 
-/* contact form */
 
-/* --------*/
+/* contact form */
 .center,
 .ag-format-container {
   width: 75%;
@@ -931,8 +914,7 @@ textarea {
   background-color: #4c49ea;
 }
 
-
-
+/* Responsive */
 @media only screen and (max-width: 979px) {
   .ag-courses_item {
     -ms-flex-preferred-size: calc(50% - 30px);
