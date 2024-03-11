@@ -72,6 +72,7 @@
 
     article{
       width: 60%;
+      height: auto;
       margin: 5rem auto;
     }
     article h3{
@@ -86,16 +87,32 @@
       font-size: 1.1rem;
     }
     .intro{
-      display: block;      
+      display: flex;
       justify-content: space-between;
+
     }
     .intro img{
+      /* border: 1px solid #2ecc71; */
       width: 400px;
+      height: 250px;
       margin-top: 2rem;
     }
+    .intro h2{
+      display: flex;
+      justify-content: start;
+      color: rgb(0, 97, 31);
+    }
+
+    article p{
+      width: 100%;
+      color: #777676;
+      letter-spacing: .2px;
+      /* border: 1px solid #2ecc71; */
+    }
     .intro p{
-      width: 50%;
-      margin-top: 2rem;
+      width: 95%;
+      color: #777676;
+      /* border: 1px solid #2ecc71; */
     }
 
 
