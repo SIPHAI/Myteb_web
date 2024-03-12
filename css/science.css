@@ -198,8 +198,11 @@ body{
         margin: 5rem auto;
         text-align: center;
       }
-      .description h2{
-        margin-top: 1rem;
+      .description h3{
+        margin: 3rem 0;
+      }
+      .description p{
+        margin: 1rem 0;
       }
       /* card */
       .main-container {
@@ -263,7 +266,13 @@ body{
         text-decoration: none;
         color: rgba(255, 255, 255, 0.9);
       }
-      
+      .head_text{
+        color:white
+      }
+      .card p{
+        margin: 1rem 0;
+        color: #fdfdfd;
+      }
       .card__link::after {
         position: absolute;
         top: 25px;
@@ -279,26 +288,15 @@ body{
         width: 100%;
       }
       
-      .card__exit {
-        grid-row: 1/2;
-        justify-self: end;
-      }
+    .card__title{
+      position: relative;
+    }
       
-      .card__icon {
-        grid-row: 2/3;
-        font-size: 30px;
-      }
       
-      .card__title {
-        grid-row: 3/4;
-        font-weight: 400;
-        color: #ffffff;
-      }
       
-      .card__apply {
-        grid-row: 4/5;
-        align-self: center;
-      }
+    
+      
+  
       
       /* CARD BACKGROUNDS */
       
