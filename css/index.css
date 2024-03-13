@@ -68,9 +68,9 @@ body{
   }
   .why{
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     position: relative;
-    background-color: #dad5d5;
+    background-color: #ffffff;
     /* border: 1px solid red; */
   }
   .reason_container{
@@ -354,7 +354,15 @@ body{
 }
 
 /* Layout Structure=========================================*/
-
+.focus{
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
 .main {
   background: linear-gradient(
     to bottom right,
@@ -367,6 +375,7 @@ body{
   height: 80vh;
   width: 70%;
   margin: 0 auto;
+  /* background-color: #e50378; */
 }
 
 /* Container to hold all cards in one place */
@@ -595,13 +604,14 @@ h2{
 /* slider============================== */
 .client{
   width: 100%;
-  height: 100vh;
-  margin: 0 auto;
+  height: 50vh;
+  margin: 15rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
+  background-color: #ffffff;
 }
 
 @keyframes hm-clients-track-move {
@@ -655,7 +665,7 @@ h2{
 }
 
 .client .slider .slide-track .slide img {
-  width: 250px;
+  width: 100px;
   transition: transform 1s;
 }
 
