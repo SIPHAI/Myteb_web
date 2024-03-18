@@ -98,17 +98,16 @@ body{
     
     button {
       padding: 15px 22px;
-      border: 1px solid #664646;
-      border: none;
       font-size: 0.85em;
       text-transform: uppercase;
       text-align: center;
-      transition: color 3s ease-in-out;
     }
     
     button:hover {
       box-shadow: 12px #00a711;
+      background-color: #f6f6f6;
       cursor: pointer;
+      transform: all 0.5s ease-in-out;
     }
     
     /* Media queries */
