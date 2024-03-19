@@ -81,6 +81,20 @@ body{
         margin-left: 22rem; /* This will center the video horizontally */
       }
 
+      /* ==================  */
+      .hero{
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        position: relative;
+      }
+      .hero p{
+        width: 80%;
+        margin: 4rem auto;
+        font-size: large;
+      }
+
+
       /* ==================*/
     
     .carousel {
