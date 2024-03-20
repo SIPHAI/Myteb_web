@@ -15,6 +15,7 @@
 body{
     background-color: var(--background-color);
     /* font-family: 'Courier New'; */
+    font-family: century gothic;
 }
 .topnav {
     display: flex;
@@ -163,12 +164,39 @@ body{
     color: #4e4d4d;
     transition: all 0.3s ease;
   }
-  
+ /* what we offer   */
+
+ .offers_container{
+  width: 100%;
+  height: 100vh;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+.offers_container a {
+  text-decoration: none;
+  margin: 2rem;
+  padding: 15px 75px;
+  outline: 2px solid #f4f4f4;
+}
+.offers_container a :hover{
+  background-color: #be1a1a;
+}
+
+
+
+
   .partner_wrapper{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    margin-top: 8rem;
+    background: linear-gradient(to top, 
+    rgb(217, 217, 237) 0%,rgb(255, 255, 255) 100%);
+
   }  
-  .partner{
+  .partner_wrapper .partner{
 
     display: flex;
     margin: 5rem auto;
@@ -228,7 +256,6 @@ body{
       }
     }
   .why{
-    /* border: 1px solid #e0e0e0; */
     width: 100%;
     height: 100vh;
     position: relative;
@@ -299,25 +326,7 @@ body{
     }
   }
 
-  
 
-
-  /* shcedule under header */
-  .overall_container{
-    padding: 10rem 0;
-    width: 100%;
-    height: 80vh;
-    background-color: #ffffff;
-  }
-.overall_container h2{
-  text-align: center;
-  margin-bottom: 40px;
-  padding: 20rem auto;
-  margin: 5rem auto;
-}
-.overall_container h3{
-  color:#787474;
-}
 
   .wrapper{
     width: 80%;
@@ -347,7 +356,6 @@ body{
 
 /* Mixed */
 
-/* For both inside page's main heading and 'view me' text on card front cover */
 .inside-page__heading,
 .card-front__text-view {
   font-size: 1.3rem;
@@ -377,7 +385,6 @@ body{
   margin-top: -.2rem;
 }
 
-/* Back cover */
 
 /* For inside page's body text */
 .inside-page__text {
@@ -412,61 +419,6 @@ body{
   z-index: 10;
 }
 
-.inside-page__btn::before { 
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  transform: scaleY(0);
-  transition: all .3s ease;
-  width: 100%;
-  z-index: -1;
-}
-
-.inside-page__btn--city { 
-  border-color: #ff40a1;
-  color: #ff40a1;
-}
-
-.inside-page__btn--city::before { 
-  background-color: #ff40a1;
-}
-
-.inside-page__btn--ski { 
-  border-color: #279eb2;
-  color: #279eb2;
-}
-
-.inside-page__btn--ski::before { 
-  background-color: #279eb2;
-}
-
-.inside-page__btn--beach { 
-  border-color: #fa7f67;
-  color: #fa7f67;
-}
-
-.inside-page__btn--beach::before { 
-  background-color: #fa7f67;
-}
-
-.inside-page__btn--camping { 
-  border-color: #00b97d;
-  color: #00b97d;
-}
-
-.inside-page__btn--camping::before { 
-  background-color: #00b97d;
-}
-
-.inside-page__btn:hover { 
-  color: #fafbfa;
-}
-
-.inside-page__btn:hover::before { 
-  transform: scaleY(1);
-}
 
 /* Layout Structure=========================================*/
 .focus{
@@ -526,7 +478,6 @@ body{
 
 /* Flip card - covering both the front and inside front page */
 
-/* An outer container to hold the flip card. This excludes the inside page */
 .flip-card {
   height: 25rem;
   perspective: 100rem;
@@ -538,8 +489,6 @@ body{
   z-index: 100;
 }
 
-/* The outer container's visibility is set to hidden. This is to make everything within the container NOT set to hidden  */
-/* This is done so content in the inside page can be selected */
 .flip-card > * {
   visibility: visible;
 }
@@ -911,146 +860,11 @@ textarea {
 
 /* contact form */
 
-.ag-format-container {
-  width: 75%;
-  margin: 10rem auto;
 
-}
-.ag-courses_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 50px 0;
-}
-.ag-courses_item {
-  -ms-flex-preferred-size: calc(33.33333% - 30px);
-  flex-basis: calc(33.33333% - 30px);
-
-  margin: 0 15px 30px;
-
-  overflow: hidden;
-
-  border-radius: 28px;
-}
-.ag-courses-item_link {
-  display: block;
-  padding: 30px 20px;
-  background-color: #c1b3cf;
-
-  overflow: hidden;
-
-  position: relative;
-}
-.ag-courses-item_link:hover,
-.ag-courses-item_link:hover .ag-courses-item_date {
-  text-decoration: none;
-  color: #FFF;
-}
-.ag-courses-item_link:hover .ag-courses-item_bg {
-  -webkit-transform: scale(10);
-  -ms-transform: scale(10);
-  transform: scale(10);
-}
-.ag-courses-item_title {
-  min-height: 87px;
-  margin: 0 0 25px;
-
-  overflow: hidden;
-
-  font-weight: bold;
-  font-size: 20px;
-  color: #FFF;
-
-  z-index: 2;
-  position: relative;
-}
-.ag-courses-item_date-box {
-  font-size: 18px;
-  color: #FFF;
-
-  z-index: 2;
-  position: relative;
-}
-.ag-courses-item_date {
-  font-weight: bold;
-  color: #f9b234;
-
-  -webkit-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease
-}
-.ag-courses-item_bg {
-  height: 128px;
-  width: 128px;
-  background-color: #f9b234;
-
-  z-index: 1;
-  position: absolute;
-  top: -75px;
-  right: -75px;
-
-  border-radius: 50%;
-
-  -webkit-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}
-.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
-  background-color: #3ecd5e;
-}
-.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
-  background-color: #e44002;
-}
-.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
-  background-color: #952aff;
-}
-.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
-  background-color: #cd3e94;
-}
-.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
-  background-color: #4c49ea;
-}
+.card-front__tp--ski
 
 /* Responsive */
-@media only screen and (max-width: 979px) {
-  .ag-courses_item {
-    -ms-flex-preferred-size: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
-  }
-  .ag-courses-item_title {
-    font-size: 24px;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
-  }
-
-}
-@media only screen and (max-width: 639px) {
-  .ag-courses_item {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-  }
-  .ag-courses-item_title {
-    min-height: 72px;
-    line-height: 1;
-
-    font-size: 24px;
-  }
-  .ag-courses-item_link {
-    padding: 22px 40px;
-  }
-  .ag-courses-item_date-box {
-    font-size: 16px;
-  }
-}
 
 
 /* footer dont touch is */
