@@ -173,6 +173,25 @@ body{
   background-color: #fbf8f8;
 }
 
+.container .heading .box_container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .heading  .box{
+  width: 200px;
+  height: 150px;
+  background-color: #a7a5b3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
 .container .heading{
   padding-top: 5rem;
   display: flex;
