@@ -40,6 +40,30 @@ body{
   }
 }
 
+/* Media queries for responsiveness */
+@media only screen and (min-width: 768px) {
+  .container .intro_container .intro .image {
+    max-width: 400px;
+  }
+
+  .container .intro_container .intro .paragraph {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .intro_container .intro .image {
+    max-width: 500px;
+  }
+
+  .container .intro_container .intro .paragraph {
+    max-width: 800px;
+  }
+}
+
+
+
+
 
  /*responsive */
  @media screen and (max-width: 600px) {
@@ -75,6 +99,22 @@ body{
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+}
+.wrapper {
+  flex-direction: row; /* Reset flex direction for larger screens */
+}
+
+.toggle-btn img {
+  width: 600px; /* Reset image width for larger screens */
+}
+
+.content {
+  max-width: 800px; /* Reset max-width for larger screens */
+}
+
+.bar-line {
+  flex-wrap: nowrap; /* Reset flex-wrap for larger screens */
+  margin: 4rem auto; /* Reset margin for larger screens */
 }
 }
 
@@ -129,7 +169,7 @@ body{
 
     .header{
       width: 100%;
-      height: 100vh;
+      height: auto;
       background-color: #ffffff;
       justify-content: space-between;
   
@@ -235,28 +275,24 @@ body{
 .container{
   width: 100%;
   height: auto;
-  margin: 0 auto;
-  align-items: center;
+  padding: 55px 0;
 }
 
 .container h1{
   text-align: center;
   font-size: 4em;
   font-weight: 600;
-  color: #3b3a3a;
-  margin: 4rem 0; 
 }
 .container .intro_container .intro img{
   width: 700px;
 }
 
 .intro_container{
-  width: 90%;
-  height: auto;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .container .pic-pro img{
   width: 70%;
@@ -265,22 +301,21 @@ body{
   justify-content: center;
   align-items: center;
 }
-.intro .paragraph{
-  width: 40%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-
-}
-
 .intro{
   width: 100%;
-  height: 60vh;
   margin: 3rem auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
+.intro .paragraph{
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
 
 .intro p{
   margin: 0 auto;
@@ -456,9 +491,10 @@ body{
 }
 .feedback_container .card-columns .card:hover{
   background-color: #ffffff;
-  transition: all 0.7s ease-in-out;
-  counter-reset: all 0.7s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  counter-reset: all 0.5s ease-in-out;
   border: 1px solid #01ff40;
+  color: #00fc00;
 }
 
   .card-body strong{
@@ -666,7 +702,7 @@ h2{
   padding: 20px;
 }
 .interest_options {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   padding: 20px;
