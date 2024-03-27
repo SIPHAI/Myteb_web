@@ -194,7 +194,7 @@ body{
       }
       /* ========== */
       .description{
-        width: 70%;
+        width: 60%;
         margin: 5rem auto;
         text-align: center;
       }
@@ -221,7 +221,7 @@ body{
       
       .heading__credits {
         margin: 10px 0px;
-        color: #888888;
+        color: #838181;
         font-size: 25px;
         transition: all 0.5s;
       }
@@ -243,10 +243,10 @@ body{
       }
       
       .card {
-        margin: 20px;
-        padding: 20px;
+        margin: 10px;
+        padding: 10px;
         width: 500px;
-        min-height: 200px;
+        min-height: 170px;
         display: grid;
         grid-template-rows: 20px 50px 1fr 50px;
         border-radius: 10px;
@@ -267,11 +267,11 @@ body{
         color: rgba(255, 255, 255, 0.9);
       }
       .head_text{
-        color:white
+        color:rgb(37, 37, 37)
       }
       .card p{
         margin: 1rem 0;
-        color: #fdfdfd;
+        color: #000000;
       }
       .card__link::after {
         position: absolute;
@@ -301,23 +301,23 @@ body{
       /* CARD BACKGROUNDS */
       
       .card-1 {
-        background: radial-gradient(#1fe4f5, #3fbafe);
+        background: radial-gradient(#e9e8e8, #ededed);
       }
       
       .card-2 {
-        background: radial-gradient(#fbc1cc, #fa99b2);
+        background: radial-gradient(#ebebeb, #e8e8e8);
       }
       
       .card-3 {
-        background: radial-gradient(#76b2fe, #b69efe);
+        background: radial-gradient(#ebebeb, #ebebeb);
       }
       
       .card-4 {
-        background: radial-gradient(#60efbc, #58d5c9);
+        background: radial-gradient(#ebebeb, #ebebeb);
       }
       
       .card-5 {
-        background: radial-gradient(#f588d8, #c0a3e5);
+        background: radial-gradient(#ebebeb, #ebebeb);
       }
       
       /* RESPONSIVE */
