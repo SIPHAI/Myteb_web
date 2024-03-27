@@ -4,16 +4,15 @@
    padding: 0;
    box-sizing: border-box; 
    scroll-behavior: smooth;
-
-
+   font-family: "Poppins";
+   font-style: normal;
 }
+
 ::root{
     --text-color: #393939;
     --background-color: #ffffff;
 };
-body{
-    font-family: "Poppins", sans-serif;
-}
+
 /* Responve  */
 @media (max-width: 884px) {
   .container {
@@ -429,12 +428,9 @@ body{
 .why h1{
   width: 35%;
   margin: 0 auto;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.2em;
   text-align: center;
-}
-.why h1 span{
-  color: #1805e6;
+  color: #3d3d3d;
 }
 
 .why h2{
@@ -468,13 +464,14 @@ body{
 .feedback_container p{
   justify-content: center;
   margin: 2rem auto;
+  color: #363636;
 }
 
 .feedback_container h4{
   margin: 1rem auto;
   font-size: 1em;
   text-align: center;
-  color: #343333;
+  color: #434343;
   font-weight: 300;
 }
  .card-body .card-text{
@@ -528,13 +525,8 @@ body{
     width: 300px;
     font-size: 1em;
     font-weight: 600;
-    color: #141313;
+    color: #484848;
   }
-
-
- 
-
-
 
   .wrapper{
     width: 80%;
