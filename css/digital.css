@@ -108,11 +108,15 @@
     article p{
       width: 100%;
       color: #777676;
+      font-size: .9rem;
+      font-weight: 300;
       letter-spacing: .2px;
     }
     .intro p{
       width: 95%;
       color: #777676;
+      font-size: .9rem;
+      font-weight: 300;
     }
 
 

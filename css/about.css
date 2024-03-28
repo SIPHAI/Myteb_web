@@ -109,19 +109,16 @@ body{
     padding: 50px 0;
   } 
   .vision_container span{
-    padding-left: 3rem;
-    color: #a4c500e7;
+    padding-left: 1rem;
+    color: #abce00e7;
   }
   .vision_container p{
-    font-size: 1.2rem;
+    font-size: .9rem;
+    font-weight: 300;
   }
   .vision_container p{
-    font-size: 1.2rem;
-    margin: 2rem 3rem;
+    font-size: 1rem;
   }
-
-
-
 
 
     .location{
@@ -170,11 +167,13 @@ body{
   
     .Event{
       width: 100%;
-      height: 100vh;
-      background-color: #f1eeee;
+      height: 100dvh;
+      padding: 10rem;
+      background-color: #f7f4f4;
     }
 
-    h1{
+    h2{
+      padding-top: 2rem;
       text-align: center;
      }
      .container{
@@ -212,7 +211,7 @@ body{
   }
   
   .container .card:hover .face.face1{
-      background: #b6b0b2;
+      /* background: #b6b0b2; */
       transform: translateY(0);
   }
   
@@ -228,7 +227,7 @@ body{
   .container .card .face.face1 .content img{
       width: 390px;
       height: 290px;
-      border-radius: 14px;
+      border-radius: 4px;
   }
   
   .container .card .face.face1 .content h3{

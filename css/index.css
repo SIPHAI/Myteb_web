@@ -315,6 +315,8 @@
 }
 .intro .paragraph{
   width: 45%;
+  font-size: .8rem;
+  font-weight: 300;
   justify-content: center;
   align-items: center;
  
@@ -383,6 +385,8 @@
   justify-content: center;
   position: relative;
 }
+.offers_container .science_lab img,
+.offers_container .stem_spaze img,
 .offers_container .digital_classroom img{
   min-width: 600px;
   margin: 1rem;
@@ -396,10 +400,9 @@
   justify-content: center;
   position: relative;
 }
-.sciene_lab img{
+/* .sciene_lab img{
   min-width: 600px;
-  /* height: 550px; */
-}
+} */
 .partner_wrapper{
   display: grip;
   width: 100%;
@@ -497,19 +500,22 @@
   font-weight: 300;
 }
  .card-body .card-text{
+  font-size: .8em;
   text-align: center;
+  padding: 1rem;
  }
 
 .feedback_container .card-columns .card{
   width: 570px;
   height: 150px;
-  background-color: rgb(238, 238, 238);
+  /* background-color: rgb(255, 255, 255); */
+  border: 1px solid #e0e0e0;
   border-radius: 4px;
   margin: 1rem;
   cursor: pointer;
 }
 .feedback_container .card-columns .card:hover{
-  background-color: #ffffff;
+  background-color: #f5f4f4;
   transition: all 0.5s ease-in-out;
   counter-reset: all 0.5s ease-in-out;
   border: 1px solid #01ff40;
@@ -517,20 +523,26 @@
 }
 
   .card-body strong{
-    font-size: 1.2em;
-    color: #141313;
-    margin: 1.3rem;
+    font-size: 1em;
+    color: #3b3a3a;
+    margin: 1rem;
   }
- 
+  .reason_container{
+    width: 100%;
+    height: auto;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(3, 3, 3);
+  }
   .reason_container .services,
   .reason_container .Products,
   .reason_container .Warranty{
-    width: 300px;
-    height: 300px;
+    max-width: 350px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    place-items: center;
   }
   span i{
     font-size: 3em;
@@ -544,10 +556,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
     font-size: 1em;
-    font-weight: 600;
-    color: #484848;
+    font-weight: 400;
+    color: #656464;
   }
 
   .wrapper{

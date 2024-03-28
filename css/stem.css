@@ -66,6 +66,7 @@ body{
     h2{
         text-align: center;
         padding: 1rem;
+        font-size: 4.5rem;
   
       }
       h1{
@@ -86,7 +87,7 @@ body{
       /* ==================  */
       .hero{
         width: 90%;
-        height: 100vh;
+        /* height: 100vh; */
         margin: 0 auto;
         position: relative;
       }
