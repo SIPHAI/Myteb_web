@@ -63,16 +63,34 @@ body{
     }
 /* ========================= */
 
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.typed-text {
+  overflow: hidden;
+  border-right: .1rem solid rgb(0, 255, 72);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 5s steps(40, end), blink-caret .85s step-end;
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 249, 54) }
+}
+
     h2{
         text-align: center;
         padding: 1rem;
-        font-size: 4.5rem;
+        font-size: 4rem;
   
       }
       h1{
         margin-top: 10rem;
         text-align: center;
         padding: 1rem;
+        font-family: 'Arial', sans-serif;
+    
   
       }
       .video_display {
