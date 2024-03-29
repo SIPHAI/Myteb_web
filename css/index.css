@@ -465,13 +465,13 @@
   font-weight: 600;
   color: #181717;
 }
-.reason_container{
+/* .reason_container{
   margin: 5rem auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid #e0e0e0;
-}
+} */
 .feedback_container{
   position: relative;
   width: 80%;
@@ -526,10 +526,11 @@
   .reason_container{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 3rem auto;
     flex-direction: row;
     color: rgb(3, 3, 3);
-    border: 1px solid #e0e0e0;
   }
   .reason_container h3{
     font-size: 1.5em;
@@ -540,11 +541,12 @@
   .reason_container .services,
   .reason_container .Products,
   .reason_container .Warranty{
+    margin: 15px;
     max-width: 350px;
     display: flex;
     flex-direction: column;
     place-items: center;
-    border: 1px solid #e0e0e0;
+    /* border: 1px solid #e0e0e0; */
   }
   span i{
     font-size: 3em;
@@ -812,7 +814,7 @@ textarea {
   cursor: pointer;
 }
 
-
+/* ==== Footer ====== */
 .site-footer {
   background-color: #afadad;
   padding: 45px 0 20px;
