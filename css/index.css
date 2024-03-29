@@ -446,7 +446,6 @@
    
 .why{
   margin-top: -3.5rem;
-  /* width: 100%; */
   height: auto;
   position: relative;
   background: linear-gradient(to bottom, #f0f0f3 0%, #ffffff 100%);
@@ -525,18 +524,23 @@
     margin: 1rem;
   }
   .reason_container{
-    width: 90%;
-    /* height: auto; */
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     color: rgb(3, 3, 3);
     border: 1px solid #e0e0e0;
   }
+  .reason_container h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 1rem;
+  }
   .reason_container .services,
   .reason_container .Products,
   .reason_container .Warranty{
-    max-width: 320px;
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -550,13 +554,12 @@
     border-radius: 50%;
   }
   .reason_container p{
-    /* margin: 1rem auto; */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1em;
-    font-weight: 400;
+    font-size: .8em;
+    font-weight: 300;
     color: #656464;
   }
 

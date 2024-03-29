@@ -71,7 +71,7 @@ body{
   overflow: hidden;
   border-right: .1rem solid rgb(0, 255, 72);
   white-space: nowrap;
-  margin: 0 auto;
+  margin: 3rem auto;
   animation: typing 5s steps(40, end), blink-caret .85s step-end;
 }
 @keyframes blink-caret {
