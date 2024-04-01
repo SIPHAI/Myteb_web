@@ -54,15 +54,10 @@
   .container .intro_container .intro .image {
     max-width: 500px;
   }
-
   .container .intro_container .intro .paragraph {
     max-width: 800px;
   }
 }
-
-
-
-
 
  /*responsive */
  @media screen and (max-width: 600px) {
@@ -116,9 +111,6 @@
   margin: 4rem auto; /* Reset margin for larger screens */
 }
 }
-
-
-
 
 
 .topnav {
@@ -298,7 +290,7 @@
   justify-content: space-between;
 }
 
-.intro{
+.intro{    
   width: 80%;
   margin: 6rem auto;
   display: flex;
@@ -311,14 +303,9 @@
   font-weight: 300;
   justify-content: center;
   align-items: center;
- 
+  border: 1px solid black;
 }
 
-.intro p{
-  margin: 0 auto;
-  font-size: 1.1em;
-  color: #4e4d4d;
-}
 
 .container .pic-pro{
   margin: 1rem 5rem;
