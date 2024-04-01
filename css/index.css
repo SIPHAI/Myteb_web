@@ -131,6 +131,7 @@
   }
   
   .topnav a:hover {
+    text-decoration: none;
     color: rgb(255, 0,13);
     transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
   }
@@ -268,55 +269,29 @@
   }
 /* introduction  */
 
-.container1{
-  /* border: 1px solid #070707; */
+.container{
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
-
-.container1 h1{
-  text-align: center;
-  font-size: 4em;
-  font-weight: 500;
-}
-.container1 .intro_container .intro img{
-  width: 700px;
-}
-
-.intro_container{
-  margin: 0 115px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.intro{    
-  width: 80%;
-  margin: 6rem auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.intro .paragraph{
-  padding: 5rem;
-  font-size: .8rem;
+.paragraph{
   font-weight: 300;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
+ font-size: medium;
+ color: #262626;
 }
 
 
-.container .pic-pro{
-  margin: 1rem 5rem;
+
+.image img{
+ width: 1200px;
 }
-.pic-pro img{
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.pic-pro h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #3c3c3c;
+  margin: 1rem 0;
+ 
+ }
 
 
  /* what we offer   */
@@ -335,14 +310,7 @@
   color: #0f0e0e;
   margin: 1rem 0;
  }
- .pic-pro h3{
-  text-align: center;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: #3c3c3c;
-  margin: 1rem 0;
- 
- }
+
 .offers_container .stem_spaze a,
 .offers_container .sciene_lab a,
 .offers_container .digital_classroom a {
