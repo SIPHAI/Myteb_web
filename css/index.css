@@ -39,7 +39,9 @@
   }
 }
 
-
+.nav{
+  background-color: white;
+}
 
 .topnav {
   display: flex;
@@ -132,7 +134,7 @@
 .image img{
   width: 800px;
  }
-.card-body{
+.card-group.card-body{
   border: .2px solid #e0e0e0;
 }
 
@@ -155,7 +157,7 @@
   position: relative;
  }
  hr{
-  width: 90%;
+  width: 80%;
   height: 2px;
   background-color: #c5c5c5;
   border: none;
