@@ -160,15 +160,12 @@
   color: #ffffff;
 
  }
-<<<<<<< HEAD
 
-=======
 .image p{
   width: 55%;
   margin: 0 auto;
   padding: 2rem;
 }
->>>>>>> a586649 (commit)
   
 .container1{
   position: relative;
@@ -192,13 +189,10 @@
 }
 @media screen and (min-width: 1000px) {
   .image img {
-<<<<<<< HEAD
     min-width: 1000px; /* Set minimum width for larger screens */
     min-height: 600px; /* Set minimum height for larger screens */
-=======
     min-width: 1500px; /* Set minimum width for larger screens */
     min-height: 700px; /* Set minimum height for larger screens */
->>>>>>> a586649 (commit)
   }
 }
 
@@ -562,10 +556,7 @@ img:hover {
 }
 
 /* contact form */
-<<<<<<< HEAD
-=======
 .btn,
->>>>>>> a586649 (commit)
 .container .form_area{
   margin-left: 11rem;
 
