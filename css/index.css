@@ -146,11 +146,17 @@
 .card{
   margin: 1rem;
 }
-.image img{
-  min-width: 1000px;
-  min-height: 600px;
-  /* width: 1000px; */
- }
+.image img {
+  max-width: 1000px;
+  height: auto;
+}
+@media screen and (min-width: 1000px) {
+  .image img {
+    min-width: 1000px; /* Set minimum width for larger screens */
+    min-height: 600px; /* Set minimum height for larger screens */
+  }
+}
+
 .card-group.card-body{
   border: .2px solid #e0e0e0;
 }
@@ -236,12 +242,7 @@
   margin: 0 auto;
   justify-content: center;
 }
-.part_h1{
-  display: flex;
-  margin: 5rem auto;    
-  justify-content: center;
-  align-items: center;
-  }
+
   
 .partner .images{
   display: flex;
