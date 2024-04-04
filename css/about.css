@@ -19,6 +19,10 @@ body{
     font-family: sans-serif;
     /* background-color: rgb(9, 176, 176); */
 }
+.nav{
+  background-color: white;
+}
+
 .topnav {
     display: flex;
     align-items: center;

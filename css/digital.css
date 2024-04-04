@@ -8,6 +8,10 @@
    font-style: normal;
 
 }
+.nav{
+  background-color: white;
+}
+
 
 .topnav {
     display: flex;
@@ -27,6 +31,7 @@
   }
   
   .topnav a:hover {
+    text-decoration: none;
     color: rgb(255, 0, 51);
     transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
   }
