@@ -572,6 +572,11 @@ img:hover {
 
 
 /* ==== Footer ====== */
+.all_footer{
+  width: 100%;
+  height: auto;
+  background-color: #00aced;
+}
 .site-footer {
   background-color: #afadad;
   padding: 45px 0 20px;
