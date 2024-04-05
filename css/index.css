@@ -29,8 +29,6 @@
   50% { border-color: rgb(0, 249, 54) }
 }
 
-
-
 /* Responve  */
 @media (max-width: 884px) {
   .container {
@@ -185,7 +183,6 @@
   position: relative;
   width: 100%;
   margin-top: 8rem;
-  /* height: 100dvh; */
 }
 .card-group{
   width: 80%;
@@ -196,6 +193,15 @@
 }
 .card{
   margin: 1rem;
+  cursor: pointer;
+}
+.card-title{
+  color: #000;
+}
+.card-title:hover {
+  color: #232eff;
+  text-decoration: underline #F8F9FA;
+
 }
 .image img {
   max-width: 1000px;
@@ -212,6 +218,9 @@
 
 .card-group.card-body{
   border: .2px solid #e0e0e0;
+}
+.card-group .card-body:hover{
+  background-color: #eb6857;
 }
 
 
@@ -327,8 +336,8 @@
   background: linear-gradient(to bottom, #f0f0f3 0%, #ffffff 100%);
 }
 
-.why h1{
-  width: 35%;
+.why h3{
+ 
   margin: 0 auto;
   font-size: 1.2em;
   text-align: center;
