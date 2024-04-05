@@ -13,7 +13,21 @@
     --background-color: #ffffff;
 };
 /* Animation part */
-
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.typed-text {
+  overflow: hidden;
+  border-right: .1rem solid rgb(0, 255, 72);
+  white-space: nowrap;
+  margin: 3rem auto;
+  animation: typing 5s steps(40, end), blink-caret .85s step-end;
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 249, 54) }
+}
 
 
 
