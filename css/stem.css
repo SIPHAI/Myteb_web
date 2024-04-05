@@ -160,6 +160,7 @@ body{
         display: flex;
         justify-content: center;
         margin: 2rem 0;
+        text-decoration: none;
       }
       .link a{
         padding: 15px 20px;
@@ -170,6 +171,7 @@ body{
         text-decoration: none;
       }
       .link a:hover{
+        text-decoration: none;
         background-color: #0af66c;
         transition: all 0.3s ease-in-out;
 

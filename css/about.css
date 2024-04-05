@@ -96,7 +96,7 @@ body{
       height: 100vh;
       margin: 0 auto;
       padding: 55px 0;
-      background-color: #ffffff;
+      background-color: #ebebeb;
     }
     .header_img img{
       display: flex;
@@ -111,9 +111,10 @@ body{
       margin: 5rem auto;
     }
     .header_text p{
-      width: 70%;
-      font-size: 1.2rem;
-      text-align: center;
+      background-color: #fae9e9;
+      width: 71%;
+      font-size: 1rem;
+      padding: 1rem;
     }
 
 
