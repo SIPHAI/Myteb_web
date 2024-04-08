@@ -30,7 +30,16 @@
 }
 
 /* Responve  */
+@media  sreen and (min-width: 760px){
+  .category img {
+    width: 500px;
+    height: 400px;
+  }
+  
+}
+
 @media (max-width: 884px) {
+
   .container {
     margin-top: 10px;
     flex-direction: column;
@@ -287,7 +296,16 @@
   outline: 1px solid #ffffff;
 
 }
-
+.category{
+  width: 100%;
+  max-height: 100vh;
+}
+.category img {
+  display: flex;
+  margin: 4rem auto;
+  max-width: 1300px;
+  max-height: 1000px;
+}
 
  
 .container {
