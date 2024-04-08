@@ -290,38 +290,14 @@
 
 
  
-.partner_wrapper{
-  margin-top: 7rem;
-  position: relative;
+.container {
   width: 100%;
-  height: 100vh;
-  display: grip;
-  min-width: auto;
-  padding-bottom: 250px; 
-  background: linear-gradient(to top, 
-  #e8e8ed 0%,rgb(255, 255, 255) 100%);
-}  
-.partner_wrapper .partner{
-  
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
+  height: auto;
 }
-
-  
-.partner .images{
-  display: flex;
-  align-items: center;
-  margin: 1rem;
-  border: 1px solid #e0e0e0;  
-  border-radius: 50%;
-}
-  
-.partner .images img{
-  border-radius: 55px;
+.container .partner img{
   width: 90px;
-  height: 90px;
 }
+  
 .lg{
   border: none;
   border-radius: none;
@@ -564,6 +540,9 @@ img:hover {
 }
 
 /* contact form */
+form{
+  position: relative;
+}
 .btn,
 .container .form_area{
   margin-left: 11rem;
@@ -572,11 +551,7 @@ img:hover {
 
 
 /* ==== Footer ====== */
-.all_footer{
-  width: 100%;
-  height: auto;
-  background-color: #00aced;
-}
+
 .site-footer {
   background-color: #afadad;
   padding: 45px 0 20px;
