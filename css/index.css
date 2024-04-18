@@ -150,18 +150,7 @@
     text-decoration: none;
     color: rgb(255, 0, 0);
   }
-  /* .links {
-    position: absolute;
-    top: 8%;
-    right: 0;
-    left: 0;
-    padding: 15px;
-    display: flex;
-    background-color: #fff;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  } */
+
   .links > a{
     padding: 10px;
   }
@@ -336,7 +325,7 @@
 
  /* what we offer   */
  .offers_container{
-  background-color: #f6f3f3;;
+  /* background-color: #f6f3f3;; */
   position: relative;
   margin-top: 12rem;
   width: 100%;
