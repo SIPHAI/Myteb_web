@@ -177,7 +177,6 @@
 }
 
 
-
 /* contain */
 .contain{
   width: 100%;
@@ -190,16 +189,18 @@
   padding: 1rem;
  }  
  .image {
+  width: 100%;
   text-align: center;
-
 }
 
 .contain .image img {
-  width: 1500px;
+  width: 1000px;
   height: auto;
   display: inline-block;
 }
-
+.contain .image p{
+  width: 60%;
+}
 .contain p{
   width: 70%;
   margin: 0 auto;
