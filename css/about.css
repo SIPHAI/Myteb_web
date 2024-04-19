@@ -61,9 +61,8 @@ body{
     transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
   }
   
-  .topnav a.active {
+ .active {
     color: rgb(255, 0, 13);
-    /* text-decoration: underline; */
 
   }
   
@@ -81,6 +80,47 @@ body{
       display: block;
       text-align: left;
     }
+    .Nav_Bar .nav-item a:hover{
+      color: #ff0000;;
+    }
+    .navbar {
+      padding: 0 1rem;
+    }
+    @media (min-width: 1000px) {
+      .navbar-collapse {
+        display: flex;
+        justify-content: end;
+      }
+    }
+    @media (min-width: 1300px) {
+      .navbar {
+        padding: 0 8rem;
+      }
+    }
+    
+    @media screen and (max-width: 700px) {
+      .logoImg {
+        width: 200px;
+        height: 80;
+      }
+      .text h1 {
+        margin: 2rem auto;
+        font-size: 27px;
+        font-weight: 600;
+        padding: 1rem;
+      }  
+    }
+    .nav-link {
+      color: #414141 !important
+    }
+    .nav-link:hover {
+      color: #ff0000 !important
+    }
+    .active {
+      color: #ff0000 ;
+    }
+
+    /* ===== hjkl; ==== */
 
 
     .h1{

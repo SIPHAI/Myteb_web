@@ -1,9 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
+   box-sizing: border-box; 
    scroll-behavior: smooth;
    font-family: "Poppins";
    font-style: normal;
@@ -13,23 +12,6 @@
     --text-color: #393939;
     --background-color: #ffffff;
 };
-
-/* Animation part */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-.typed-text {
-  overflow: hidden;
-  border-right: .1rem solid #00ff48;
-  white-space: nowrap;
-  margin: 3rem auto;
-  animation: typing 5s steps(40, end), blink-caret .85s step-end;
-}
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 249, 54) }
-}
 
 /* Responve  */
 @media  sreen and (min-width: 760px){
@@ -66,146 +48,67 @@
   }
 }
 
-/* nabar */
-
 .nav{
   background-color: white;
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
+
 }
 
-.topnav {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 75%;
-  }
-  
-  .topnav a {
-    float: left;
-    align-items: center;
-    display: block;
-    color: #414141;
-    text-align: center;
-    padding: 18px 14px;
-    text-decoration: none;
-  }
-  .nav .topnav .shop{
-    position: absolute;
-    right: 113px;
-    margin-left: 2rem;
-    color: white;
-    padding: .7rem;
-    background-color: #3a01e3;
-    outline: 1px solid #3a01e3;
-    cursor: pointer;
-  }
-  .nav .topnav .shop:hover{
-    outline: none;
-    background-color: #1212cd;
-  }
-  .topnav a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 51);
-    transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
-  }
-  
-  .topnav a.active {
-    color: rgb(255, 0, 13);
-    /* text-decoration: underline; */
-
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-
-@media screen and (max-width: 600px) {
-  .topnav{
-    width: 100%;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .topnav .links .shop {
-    background-color: #5100f3;
-    border-radius: 8px;
-    color: #fff;
-  }
- 
-  .topnav a {
-    display: none;
-  }
-  .topnav a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-  }
-
-  .links > a{
-    padding: 10px;
-  }
-
-  .topnav .icon {
-    cursor: pointer;
-    display: block;
-    text-align: end;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.links.responsive {
-    position: absolute;
-    left: 0;
-  }
-  
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
- 
-}
-
-
-/* contain */
-.contain{
-  width: 100%;
-  height: 100vh;
-}
- .text h1{
-  margin: 3rem auto;
+/* ======================= newest update ================================= */
+.text h1{
   font-size: 60px;
   font-weight: 600;
-  padding: 1rem;
- }  
- .image {
-  width: 100%;
-  text-align: center;
+ } 
+
+.Nav_Bar .nav-item a:hover{
+  color: #ff0000;;
+}
+.navbar {
+  padding: 0 1rem;
+}
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (min-width: 1300px) {
+  .navbar {
+    padding: 0 8rem;
+  }
 }
 
-.contain .image img {
-  width: 1000px;
-  height: auto;
-  display: inline-block;
+@media screen and (max-width: 700px) {
+  .logoImg {
+    width: 200px;
+    height: 80;
+  }
+  .text h1 {
+    margin: 2rem auto;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 1rem;
+  }  
 }
-.contain .image p{
-  width: 60%;
+.nav-link {
+  color: #414141 !important
 }
-.contain p{
-  width: 70%;
-  margin: 0 auto;
+.nav-link:hover {
+  color: #ff0000 !important
 }
+.active {
+  color: #ff0000 ;
+}
+/* ======================================================== */
 
+ .text-center a{
+  color: #ffffff;
+  margin: 3rem;
+  padding: 20px 60px;
+  background-color: rgb(0, 178, 42);
+  text-decoration: none;
+  transition: all ease-in-out .3s;
+ }
  .text-center a:hover{
   text-decoration: none;
   outline: none;
@@ -214,65 +117,19 @@
 
  }
 
-
-.typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-
-.digital-text{
-  text-align: center;
+.image p{
+  width: 55%;
   margin: 0 auto;
-
-}
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-@media screen and (max-width: 600px) {
-  .contain .text h1{
-    font-size: 25px;
-  }
-  .typewriter p {
-    overflow:hidden;
-    padding: 15px;
-    width: 90%;
-    height:200px;
-    white-space: wrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-  }
-  .digital-text{
-    width: 90%;
-    margin: 0 auto;
-    height: auto;
-
-  }
- 
+  padding: 2rem;
 }
   
-/* container1 */
-
-/* .container1{
+.container1{
   position: relative;
   width: 100%;
-} */
+  height: 60vh;
+  margin-top: 8rem;
+  background-color: #ebeeef;
+}
 .card-group{
   width: 80%;
   height: auto;
@@ -293,21 +150,7 @@
   text-decoration: underline #F8F9FA;
 
 }
-.image img {
-  max-width: 1000px;
-  height: auto;
-}
-.last-image{
-  height: auto;
-}
-/* @media screen and (min-width: 1000px) {
-  .image img {
-    min-width: 1000px;
-    min-height: 600px; 
-    min-width: 1500px; 
-    min-height: 700px; 
-  }
-} */
+
 
 .card-group.card-body{
   background-color: grey;
@@ -326,7 +169,7 @@
 
  /* what we offer   */
  .offers_container{
-  /* background-color: #f6f3f3;; */
+  background-color: #f6f3f3;;
   position: relative;
   margin-top: 12rem;
   width: 100%;
@@ -339,14 +182,14 @@
   border: none;
   margin: 0 auto;
  }
-
 .offers_container .digital_classroom{
   width: 80%;
   margin: 1rem auto;
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
- 
+  /* border: 1px solid #f6f3f3; */
+  /* background-color: #fcfbfb;; */
 }
 .offers_container .digital_classroom img{
   position: relative;
@@ -769,13 +612,4 @@ form{
   }
   .social-icons a.dribbble:hover {
   background-color: #ea4c89;
-  }
-
-.form-check{
-  display: flex;
-  align-items: center;
-}
-  .-btn{
-    padding: 10px;
-    border-radius: 10px;
   }

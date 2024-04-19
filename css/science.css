@@ -41,62 +41,91 @@ body{
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 }
 
-.topnav {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 75%;
+/* Responve  */
+@media  sreen and (min-width: 760px){
+  .category img {
+    width: 500px;
+    height: 400px;
   }
   
-  .topnav a {
-    float: left;
-    align-items: center;
-    display: block;
-    color: #414141;
-    text-align: center;
-    padding: 18px 14px;
-    text-decoration: none;
-  }
-  .nav .topnav .shop{
-    position: absolute;
-    right: 113px;
-    margin-left: 2rem;
-    color: white;
-    padding: .7rem;
-    background-color: #3a01e3;
-    outline: 1px solid #3a01e3;
-    cursor: pointer;
-  }
-  .nav .topnav .shop:hover{
-    outline: none;
-    background-color: #1212cd;
-  }
-  .topnav a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 51);
-    transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
-  }
-  
-  .topnav a.active {
-    color: rgb(255, 0, 13);
-    /* text-decoration: underline; */
+}
 
+@media (max-width: 884px) {
+
+  .container {
+    margin-top: 10px;
+    flex-direction: column;
   }
-  
-  .topnav .icon {
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 678px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 428px) {
+  nav ul {
     display: none;
   }
-  .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
+}
+
+.nav{
+  background-color: white;
+  box-shadow: 1px 1px 4px rgb(239, 239, 239);
+
+}
+
+.text h1{
+  font-size: 60px;
+  font-weight: 600;
+ } 
+
+.Nav_Bar .nav-item a:hover{
+  color: #ff0000;;
+}
+.navbar {
+  padding: 0 1rem;
+}
+@media (min-width: 1000px) {
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (min-width: 1300px) {
+  .navbar {
+    padding: 0 8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logoImg {
+    width: 200px;
+    height: 80;
+  }
+  .text h1 {
+    margin: 2rem auto;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 1rem;
+  }  
+}
+.nav-link {
+  color: #414141 !important
+}
+.nav-link:hover {
+  color: #ff0000 !important
+}
+.active {
+  color: #ff0000 ;
+}
     /* ================ */
     h2{
       text-align: center;
@@ -115,10 +144,7 @@ body{
       
     }
     
-    .video__container {
-      width: 60%;
-      margin-left: 22rem; /* This will center the video horizontally */
-    }
+ 
     /* ================== */
     .carousel {
         width: 80%;
@@ -241,7 +267,7 @@ body{
         margin: 1rem 0;
       }
       /* card */
-      .main-container {
+      .p-100 {
         padding: 100px;
       }
       
@@ -365,10 +391,6 @@ body{
         }
       }
 
-
-
-
-      
       /* === footet === */
       .site-footer {
         background-color: #afadad;

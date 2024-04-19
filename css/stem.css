@@ -24,20 +24,7 @@ body{
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 
 }
-.nav .topnav .shop{
-  position: absolute;
-  right: 113px;
-  margin-left: 2rem;
-  color: white;
-  padding: .7rem;
-  background-color: #3a01e3;
-  outline: 1px solid #3a01e3;
-  cursor: pointer;
-}
-.nav .topnav .shop:hover{
-  outline: none;
-  background-color: #1212cd;
-}
+
 .topnav {
     display: flex;
     align-items: center;
@@ -81,7 +68,52 @@ body{
       display: block;
       text-align: left;
     }
-/* ========================= */
+
+
+    .text h1{
+      font-size: 60px;
+      font-weight: 600;
+     } 
+    
+    .Nav_Bar .nav-item a:hover{
+      color: #ff0000;;
+    }
+    .navbar {
+      padding: 0 1rem;
+    }
+    @media (min-width: 1000px) {
+      .navbar-collapse {
+        display: flex;
+        justify-content: end;
+      }
+    }
+    @media (min-width: 1300px) {
+      .navbar {
+        padding: 0 8rem;
+      }
+    }
+    
+    @media screen and (max-width: 700px) {
+      .logoImg {
+        width: 200px;
+        height: 80;
+      }
+      .text h1 {
+        margin: 2rem auto;
+        font-size: 27px;
+        font-weight: 600;
+        padding: 1rem;
+      }  
+    }
+    .nav-link {
+      color: #414141 !important
+    }
+    .nav-link:hover {
+      color: #ff0000 !important
+    }
+    .active {
+      color: #ff0000 ;
+    }
 
 @keyframes typing {
   from { width: 0 }
