@@ -7,13 +7,8 @@
    font-family: "Poppins";
    font-style: normal;
 }
-html {
-  scroll-behavior: smooth;
-}
-::root{
-    --text-color: #393939;
-    --black-color: #000000;
-};
+
+
 body{
     background-color: var(--background-color);
     font-family: 'Courier New';
@@ -79,9 +74,10 @@ body{
 .nav{
   background-color: white;
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
-
 }
-
+.navbar-nav{
+  margin-right: 20rem;
+}
 .text h1{
   font-size: 60px;
   font-weight: 600;

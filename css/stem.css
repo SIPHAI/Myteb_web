@@ -11,10 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
-::root{
-    --text-color: #393939;
-    --black-color: #000000;
-};
+
 body{
     background-color: var(--background-color);
     font-family: 'Courier New';
@@ -24,7 +21,9 @@ body{
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 
 }
-
+.navbar-nav{
+  margin-right: 20rem;
+}
 .topnav {
     display: flex;
     align-items: center;
@@ -161,10 +160,11 @@ body{
         position: relative;
       }
       .hero p{
-        width: 50%;
+        width: 80%;
         text-align: center;
-        margin: 4rem auto;
-        font-size: large;
+        margin: 2rem auto;
+        padding: 2rem;
+        /* font-size: large; */
       }
 
 

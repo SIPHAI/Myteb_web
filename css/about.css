@@ -11,10 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
-::root{
-    --text-color: #393939;
-    --black-color: #000000;
-};
+
 body{
     font-family: sans-serif;
     /* background-color: rgb(9, 176, 176); */
@@ -24,19 +21,8 @@ body{
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 
 }
-.nav .topnav .shop{
-  position: absolute;
-  right: 113px;
-  margin-left: 2rem;
-  color: white;
-  padding: .7rem;
-  background-color: #3a01e3;
-  outline: 1px solid #3a01e3;
-  cursor: pointer;
-}
-.nav .topnav .shop:hover{
-  outline: none;
-  background-color: #1212cd;
+.navbar-nav{
+  margin-right: 20rem;
 }
 .topnav {
     display: flex;
@@ -180,8 +166,7 @@ body{
   .vision_container p{
     font-size: 1rem;
   }
-
-
+  
     .location{
       width: 100%;
       margin: 0 auto;
@@ -230,8 +215,6 @@ body{
       position: relative;
       width: 100%;
       height: 100dvh;
-      padding: 10rem;
-      /* background-color: #f7f4f4; */
     }
 
     .project{
