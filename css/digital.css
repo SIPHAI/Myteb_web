@@ -13,9 +13,7 @@
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 
 }
-.navbar-nav{
-  margin-right: 20rem;
-}
+
 .topnav {
     display: flex;
     align-items: center;
@@ -81,6 +79,9 @@
     @media (min-width: 1300px) {
       .navbar {
         padding: 0 8rem;
+      }
+      .navbar-nav{
+        margin-right: 20rem;
       }
     }
     

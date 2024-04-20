@@ -42,7 +42,6 @@ body{
     width: 500px;
     height: 400px;
   }
-  
 }
 
 @media (max-width: 884px) {
@@ -75,9 +74,7 @@ body{
   background-color: white;
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
 }
-.navbar-nav{
-  margin-right: 20rem;
-}
+
 .text h1{
   font-size: 60px;
   font-weight: 600;
@@ -93,6 +90,9 @@ body{
   .navbar-collapse {
     display: flex;
     justify-content: end;
+  }
+  .navbar-nav{
+    margin-right: 20rem;
   }
 }
 @media (min-width: 1300px) {

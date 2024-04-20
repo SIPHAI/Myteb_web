@@ -16,7 +16,6 @@
 }
 
 @media (max-width: 884px) {
-
   .container {
     margin-top: 10px;
     flex-direction: column;
@@ -59,13 +58,14 @@
 .navbar {
   padding: 0 1rem;
 }
-.navbar-nav{
-  margin-right: 20rem;
-}
+
 @media (min-width: 1000px) {
   .navbar-collapse {
     display: flex;
     justify-content: end;
+  }
+  .navbar-nav{
+    margin-right: 20rem;
   }
 }
 @media (min-width: 1300px) {
