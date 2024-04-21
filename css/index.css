@@ -121,6 +121,17 @@
   /* background-color: #ebeeef; */
  
 }
+.shop_link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop_link a{
+  padding: 12px 12px;
+  transform: translateX(-50%);
+
+}
+
 .card-group{
   width: 80%;
   height: auto;
