@@ -72,7 +72,10 @@ body{
      } 
     
     .Nav_Bar .nav-item a:hover{
-      color: #ff0000;;
+      color: #ff0000;
+    }
+    .Nav_Bar .nav-item .active{
+      color: #ff0000;
     }
     .navbar {
       padding: 0 1rem;

@@ -86,6 +86,9 @@
     padding: 1rem;
   }  
 }
+.nav-link:hover {
+  color: #ff0000 !important
+}
 .active{
   color:red;
 }
