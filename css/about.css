@@ -38,12 +38,7 @@ body{
     padding: 18px 14px;
     text-decoration: none;
   }
-  
-  .topnav a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 51);
-    transform: matrix3d(1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1.01, 0, 0, 0, 0, 1);
-  }
+
   
  .active {
     color: rgb(255, 0, 13);

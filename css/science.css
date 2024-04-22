@@ -139,7 +139,11 @@ body{
       align-items: center;
       
     }
-    
+    .digital {
+      width: 100%;
+      height: auto;
+      padding: 9rem;
+    }
  
     /* ================== */
     .carousel {

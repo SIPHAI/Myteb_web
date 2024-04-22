@@ -86,14 +86,8 @@
     padding: 1rem;
   }  
 }
-.nav-link {
-  color: #414141 !important
-}
-.nav-link:hover {
-  color: #ff0000 !important
-}
-.active {
-  color: #ff0000 ;
+.active{
+  color:red;
 }
 /* ======================================================== */
  .text-center a{

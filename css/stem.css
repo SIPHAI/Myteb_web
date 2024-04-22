@@ -166,7 +166,12 @@ body{
         padding: 2rem;
         /* font-size: large; */
       }
-
+      .digital {
+        width: 100%;
+        height: auto;
+        padding: 9rem;
+      }
+  
 
       /* ==================*/
     
