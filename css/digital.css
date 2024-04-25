@@ -83,8 +83,12 @@
       .navbar-nav{
         margin-right: 20rem;
       }
+      .video__media{
+        display: flex;
+        justify-content: center;
+      }
     }
-    
+
     @media screen and (max-width: 700px) {
       .logoImg {
         width: 200px;
@@ -98,9 +102,19 @@
       } 
       .col img{
         display: flex;
-        max-width: 400px;
+        align-items: center;
+        max-width: 300px;
         height: auto;
       } 
+      .row .col{
+          display: block;
+          align-items: center;
+          justify-content: center;
+      }
+      .image-container img{
+        width: 120px;
+        height: auto;
+      }
     }
     .nav-link {
       color: #414141 !important
@@ -120,22 +134,24 @@
     .video_display {
       align-items: center;
     }
-    
+ 
     .video__container {
-      width: 60%;
-      margin-left: 22rem; /* This will center the video horizontally */
+      width: 75%;
+      display: flex;
+      margin: 0 auto;
     }
+
 
     /* ==== digital ====  */
     .digital {
-      width: 100%;
+      width: 80%;
       height: auto;
-      padding: 9rem;
+      margin: 3rem auto;
     }
 
     .col img{
       width: 600px;
-      height: 450px;
+      height: auto;
       border-radius: 15px;
     }
 
@@ -189,9 +205,6 @@
   }
      /* asdfghjk */
      
-  
-
-
 
   /* footer */
 
