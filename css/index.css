@@ -60,7 +60,7 @@
   color: #414141 !important
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
   .navbar-collapse {
     display: flex;
     justify-content: end;
@@ -152,12 +152,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
- 
 
 }
 .shop_link a{
   padding: 12px 17px;
-  transform: translateX(-50%);
+  
 }
 
 .card-group{
@@ -169,7 +168,7 @@
   align-items: center;
 }
 .card{
-  margin: 1rem;
+  /* margin: 1rem; */
   cursor: pointer;
 }
 .card-title{
@@ -207,9 +206,8 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 3rem;
-  /* border: 1px solid #f6f3f3; */
-  /* background-color: #fcfbfb;; */
 }
+
 .offers_container .digital_classroom img{
   position: relative;
   width: 80%;
@@ -316,8 +314,7 @@
  }
 
 .feedback_container .card-columns .card{
-  width: 570px;
-  height: 150px;
+  max-width: 600px;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
   margin: 1rem;
@@ -484,16 +481,6 @@ img:hover {
   right: 0;
   top: 0;
   transform: rotateZ("180deg");
-}
-
-/* contact form */
-form{
-  position: relative;
-}
-.btn,
-.container .form_area{
-  margin-left: 11rem;
-
 }
 
 
