@@ -47,10 +47,9 @@
 }
 
 /* ======================= newest update ================================= */
-.text h1{
-  font-size: 60px;
-  font-weight: 600;
- } 
+
+
+
 .Nav_Bar .nav-item a:hover{
   color: #ff0000;;
 }
@@ -87,6 +86,7 @@
     font-weight: 600;
     padding: 1rem;
   }  
+ 
 }
 .nav-link:hover {
   color: #ff0000 !important
@@ -150,11 +150,13 @@
 }
 .shop_link{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+ 
+
 }
 .shop_link a{
-  padding: 12px 12px;
+  padding: 12px 17px;
   transform: translateX(-50%);
 }
 
@@ -254,7 +256,7 @@
   height: auto;
 }
 .container .partner img{
-  width: 90px;
+  width: 60px;
 }
   
 .lg{
@@ -264,14 +266,12 @@
   }
    
 .why{
-  margin-top: -3.5rem;
+  width: 100%;
   height: auto;
-  position: relative;
   background: linear-gradient(to bottom, #f0f0f3 0%, #ffffff 100%);
 }
 
 .why h3{
- 
   margin: 0 auto;
   font-size: 1.2em;
   text-align: center;
@@ -279,7 +279,6 @@
 }
 
 .why h2{
-  padding-top: 7rem;
   font-size: 2em;
   font-weight: 600;
   color: #181717;
@@ -341,7 +340,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem auto;
+    margin: 1rem auto;
     flex-direction: row;
   }
   .reason_container h5{
@@ -395,15 +394,6 @@
   width: 100%;
 }
 
-
-h2{
-  width: 70%;
-  font-size: 2em;
-  font-weight: 600;
-  padding: 0 auto;
-  margin: 0 auto;
-
-}
 
 /* slider============================== */
 .client{
