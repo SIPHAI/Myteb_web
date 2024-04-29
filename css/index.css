@@ -27,6 +27,20 @@
   .hero-text h1 {
     font-size: 3rem;
   }
+  .card-body h6{
+    font-size: .7rem;
+  }
+  p{
+    font-size: .7rem;
+  }
+  .partner .col img{
+    max-width: 40px;
+    height: auto;
+  }
+  .slide img{
+    max-width: 60px;
+    height: auto;
+  }
 }
 
 @media (max-width: 678px) {
@@ -68,6 +82,7 @@
   .navbar-nav{
     margin-right: 20rem;
   }
+  
 }
 @media (min-width: 1300px) {
   .navbar {
@@ -95,9 +110,11 @@
   color:red;
 }
 /* ======================================================== */
-.container {
+.contact{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
 }
 
 .image-container,
@@ -481,7 +498,6 @@ img:hover {
 
 
 /* ==== Footer ====== */
-
 .site-footer {
   background-color: #afadad;
   padding: 45px 0 20px;
@@ -543,7 +559,7 @@ img:hover {
   margin: 0;
   }
   @media (max-width: 991px) {
-  .site-footer [class^="col-1"] {
+  .site-footer [class^="col-"] {
   margin-bottom: 30px;
   }
   }

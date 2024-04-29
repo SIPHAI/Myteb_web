@@ -65,7 +65,7 @@ body{
     .navbar {
       padding: 0 1rem;
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 1250px) {
       .navbar-collapse {
         display: flex;
         justify-content: end;
@@ -73,10 +73,18 @@ body{
       .navbar-nav{
         margin-right: 20rem;
       }
+      
     }
     @media (min-width: 1300px) {
       .navbar {
         padding: 0 8rem;
+      }
+    }
+    @media screen and (max-width: 1200px){ 
+      iframe{
+        max-width: 100%;
+        height: 600px;
+        padding: 1rem;
       }
     }
     
@@ -85,12 +93,13 @@ body{
         width: 200px;
         height: 80;
       }
-      .text h1 {
-        margin: 2rem auto;
-        font-size: 27px;
-        font-weight: 600;
-        padding: 1rem;
-      }  
+      .card1 .face .face1{
+        max-width: 300px;
+      }
+      p{
+        font-size: .8rem;
+      }
+      
     }
     .nav-link {
       color: #414141 !important
@@ -101,8 +110,14 @@ body{
     .active {
       color: #ff0000 ;
     }
+    .container img{
+      width: 100%;
+    }
+  .text-body{
+    width: 100%;
+  }
 
-  
+    
     .location{
       width: 100%;
       margin: 0 auto;
@@ -161,12 +176,9 @@ body{
       background-color: #ffffff;
     }
 
-
-
-
      .container1{
       width: 80%;
-      height: 100vh;
+      height: auto;
       position: relative;
       display: flex;
       margin: 5rem auto;
@@ -184,8 +196,8 @@ body{
   }
   
   .container1 .card1 .face{
-      width: 400px;
-      height: 300px;
+      width: 350px;
+      height: 250px;
       transition: 0.5s;
   }
   
@@ -199,7 +211,6 @@ body{
   }
   
   .container1 .card1:hover .face.face1{
-      /* background: #b6b0b2; */
       transform: translateY(0);
   }
   
@@ -213,8 +224,8 @@ body{
   }
   
   .container1 .card1 .face.face1 .content img{
-      width: 390px;
-      height: 290px;
+      width: 350px;
+      height: 250px;
       border-radius: 4px;
   }
   
@@ -249,7 +260,7 @@ body{
       display:  inline-block;
       text-decoration: none;
       font-weight: 900;
-      color: #000000;
+      color: #fafafa;
       padding: 5px;
       border: 1px solid #333;
   }
