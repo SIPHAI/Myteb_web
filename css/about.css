@@ -116,7 +116,25 @@ body{
   .text-body{
     width: 100%;
   }
-
+  .core{
+    width: 350px;
+    height: auto;
+    padding: 1.2rem;
+    background-color: rgb(176, 183, 177);
+  }
+  .value{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #f2f7fb;
+  }
+.col-sm img{
+  width: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
     
     .location{
       width: 100%;

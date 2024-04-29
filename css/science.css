@@ -118,6 +118,9 @@
     width: 120px;
     height: auto;
   }
+  p{
+    font-size: 0.8rem;
+  }
 }
 .nav-link {
   color: #414141 !important

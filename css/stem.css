@@ -123,6 +123,12 @@ body{
         width: 120px;
         height: auto;
       }
+      .h4{
+        font-size: .1rem;
+      }
+      p{
+        font-size: .8rem;
+      }
     }
     .nav-link {
       color: #414141 !important
