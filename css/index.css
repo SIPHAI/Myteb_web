@@ -24,14 +24,11 @@
     width: 100%;
     text-align: center;
   }
-  .hero-text h1 {
-    font-size: 3rem;
-  }
   .card-body h6{
     font-size: .7rem;
   }
   p{
-    font-size: .7rem;
+    font-size: .9rem;
   }
   .partner .col img{
     max-width: 40px;
@@ -41,19 +38,20 @@
     max-width: 60px;
     height: auto;
   }
+.text-center,
+.text .text-center{
+  width: 100%;
+  text-align: start;
+  margin: 1rem auto;
+}
 }
 
-@media (max-width: 678px) {
-  .hero-text h1 {
-    font-size: 2rem;
-  }
-}
+
 @media (max-width: 428px) {
   nav ul {
     display: none;
   }
 }
-
 .nav{
   background-color: white;
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
@@ -88,6 +86,11 @@
   .navbar {
     padding: 0 8rem;
   }
+  .text-center,
+  .text .text-center{
+  width: 75%;
+  margin: 1rem auto;
+}
 }
 
 @media screen and (max-width: 700px) {
@@ -95,19 +98,38 @@
     width: 200px;
     height: 80;
   }
-  .text h1 {
-    margin: 2rem auto;
-    font-size: 27px;
-    font-weight: 600;
+  .col h1 {
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 550;
     padding: 1rem;
   }  
- 
+  .offers_container h4{
+    font-size: 20px;
+  }
 }
 .nav-link:hover {
   color: #ff0000 !important
 }
 .active{
   color:red;
+}
+
+@media screen  and (max-width: 500px){
+  .offers_container .digital_classroom a{ 
+    outline: 1px solid #105f3c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  
 }
 /* ======================================================== */
 .contact{
@@ -126,12 +148,13 @@
   max-width: 100%;
   height: auto;
 }
-
+.h1{
+  font-size: medium;
+}
 @media screen and (max-width: 600px) {
   .container {
       flex-direction: column;
   }
-
   .image-container,
   .text-container {
       width: 100%;
@@ -147,11 +170,7 @@
   justify-content: center;
   margin: 0 auto;
 }
-.text-center,
-.text .text-center{
-  width: 75%;
-  margin: 1rem auto;
-}
+
 .text-center a{
   color: #ffffff;
   margin: 3rem;
@@ -159,12 +178,6 @@
   background-color: rgb(0, 178, 42);
   text-decoration: none;
   transition: all ease-in-out .3s;
- }
- .text-center a:hover{
-  text-decoration: none;
-  outline: none;
-  background-color: rgb(125, 125, 125);
-  color: #ffffff;
  }
 
 .container1{
@@ -191,7 +204,6 @@
   align-items: center;
 }
 .card{
-  /* margin: 1rem; */
   cursor: pointer;
 }
 .card-title{
@@ -208,7 +220,6 @@
   background-color: grey;
   border: .2px solid #e0e0e0;
 }
-
 
  /* what we offer   */
  .offers_container{
@@ -241,7 +252,7 @@
   align-items: center;
 }
 .offers_container .digital_classroom a{
-  outline: 1px solid #105f3c;
+  outline: 1px solid #abb1ae;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -323,14 +334,13 @@ ul li{
  .card-body .card-text{
   font-size: .8em;
   text-align: center;
-  padding: 1rem;
  }
 
 .feedback_container .card-columns .card{
-  max-width: 600px;
+  max-width: 650px;
+  margin: 1rem;
   border: 1px solid #e0e0e0;
   border-radius: 4px;
-  margin: 1rem;
   cursor: pointer;
 }
 .feedback_container .card-columns .card:hover{
@@ -403,7 +413,6 @@ ul li{
   object-fit: cover;
   width: 100%;
 }
-
 
 /* slider============================== */
 .client{
@@ -495,7 +504,6 @@ img:hover {
   top: 0;
   transform: rotateZ("180deg");
 }
-
 
 /* ==== Footer ====== */
 .site-footer {
