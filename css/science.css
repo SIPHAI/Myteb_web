@@ -132,126 +132,121 @@
   color: #ff0000 ;
 }
     /* ================ */
-    h2{
-      text-align: center;
-      padding: 1rem;
+h2{
+  text-align: center;
+  padding: 1rem;
+}
 
-    }
-
-    .video_display {
-      align-items: center;
-      
-    }
-    .digital {
-      width: 85%;
-      height: auto;
-      margin: 0 auto;
-    }
+  .video_display {
+    align-items: center; 
+  }
+.digital {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+}
  
     /* ================== */
-      .image-container {
-        width: 85%;
-        margin: 0 auto;
-        overflow-x: auto; /* Enable horizontal scrolling */
-        white-space: nowrap; /* Keep images in a single line */
-    }
+  .image-container {
+    width: 85%;
+    margin: 0 auto;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Keep images in a single line */
+  }
     
-    .image-container img {
-        max-width: 300px; /* Make images responsive */
-        height: auto;
-        display: inline-block; /* Display images in a row */
-        cursor: pointer;
-        margin: 2rem;
-        border: 1px solid rgb(192, 190, 190);
-        border-radius: 15px;
+  .image-container img {
+    max-width: 300px; /* Make images responsive */
+    height: auto;
+    display: inline-block; /* Display images in a row */
+    cursor: pointer;
+    margin: 2rem;
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 15px;
          /* Add spacing between images */
-    }
-    .image-container img :hover{
-      padding: 1rem;
-      cursor: pointer;
-    }
-    .link {
-      display: flex;
-      justify-content: center;
-      margin: 2rem 0;
-    }
-    .link a{
-      padding: 15px 20px;
-      align-items: center;
-      color: #ffffff;
-      border-radius: 2px;
-      background-color: #2ecc71;
-      text-decoration: none;
-      transition: all 0.3s ease-in-out;
+  }
+  .image-container img :hover{
+    padding: 1rem;
+    cursor: pointer;
+  }
 
-    }
+.link {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+  .link a{
+    padding: 15px 20px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #2ecc71;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
     .link a:hover{
       text-decoration: none;
       background-color: #0af66c;
     }
     
-      
       /* ========== */
-      .description{
-        width: 95%;
-        margin: 5rem auto;
-        text-align: center;
-      }
-      .description h3{
-        margin: 3rem 0;
-      }
+  .description{
+    width: 95%;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  .description h3{
+    margin: 3rem 0;
+  }
       
   
       
       /* HEADING */
       
-      .heading {
-        text-align: center;
-      }
+    .heading {
+      text-align: center;
+    }
       
-      .heading__title {
-        font-weight: 600;
-        color: #414141;
-      }
-      
+    .heading__title {
+      font-weight: 600;
+      color: #414141;
+    }
       
       /* CARDS */
       
-      .cards{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } 
+.card{
+  margin: 10px;
+  padding: 10px;
+  width: 500px;
+  min-height: 170px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(207, 204, 204, 0.25);
+  transition: all 0.2s;
+}
       
-      .card{
-        margin: 10px;
-        padding: 10px;
-        width: 500px;
-        min-height: 170px;
-        display: grid;
-        grid-template-rows: 20px 50px 1fr 50px;
-        border-radius: 10px;
-        box-shadow: 0px 6px 10px rgba(207, 204, 204, 0.25);
-        transition: all 0.2s;
-      }
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(220, 215, 215, 0.4);
+  transform: scale(1.01);
+}
       
-      .card:hover {
-        box-shadow: 0px 6px 10px rgba(220, 215, 215, 0.4);
-        transform: scale(1.01);
-      }
-      
-      .head_text{
-        color:rgb(69, 68, 68)
-      }
-      .card p{
-        color: #696868;
-        font-size: .8rem;
-      }
-     
+ .head_text{
+   color:rgb(69, 68, 68)
+  }
+ .card p{
+   color: #696868;
+   font-size: .8rem;
+ }
+
 
     
-      /* RESPONSIVE */
-      
+ /* RESPONSIVE */
+ 
       @media (max-width: 1600px) {
         .cards {
           justify-content: center;
