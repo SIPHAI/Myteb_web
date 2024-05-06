@@ -46,7 +46,6 @@
 }
 }
 
-
 @media (max-width: 428px) {
   nav ul {
     display: none;
@@ -439,7 +438,6 @@ ul li{
   margin: 0 auto;
   position: relative;
   width: 100%;
-  height: auto;
   display: grid;
   place-items: center;
   overflow: hidden;
