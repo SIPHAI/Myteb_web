@@ -25,7 +25,7 @@
     text-align: center;
   }
   .card-body h6{
-    font-size: .7rem;
+    font-size: 1.2rem;
   }
   p{
     font-size: .9rem;
@@ -58,7 +58,6 @@
 }
 
 /* ======================= newest update ================================= */
-
 
 
 .Nav_Bar .nav-item a:hover{
