@@ -6,10 +6,6 @@
    scroll-behavior: smooth;
    font-family: "Poppins";
    font-style: normal;
-
-}
-html {
-  scroll-behavior: smooth;
 }
 
 body{
@@ -117,9 +113,9 @@ body{
     width: 100%;
   }
   .core{
-    width: 350px;
+    width: 320px;
     height: auto;
-    padding: 1.2rem;
+    padding: 1rem;
     background-color: rgb(176, 183, 177);
   }
   .value{
