@@ -6,12 +6,11 @@
    scroll-behavior: smooth;
    font-family: "Poppins";
    font-style: normal;
-
 }
+
 .nav{
   background-color: white;
   box-shadow: 1px 1px 4px rgb(239, 239, 239);
-
 }
 
 .topnav {
@@ -40,7 +39,6 @@
   .topnav a.active {
     color: rgb(255, 0, 13);
     /* text-decoration: underline; */
-
   }
   
   .topnav .icon {
@@ -57,7 +55,6 @@
       display: block;
       text-align: left;
     }
-
 
     .text h1{
       font-size: 60px;
@@ -111,6 +108,10 @@
       .logoImg {
         width: 200px;
         height: 80;
+      }
+      .reverse{
+        display: flex;
+        flex-direction: row-reverse;
       }
    
       h4{
